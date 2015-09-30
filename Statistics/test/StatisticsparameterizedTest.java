@@ -28,7 +28,7 @@ public class StatisticsparameterizedTest {
 	}
 	
 	@Test
-	public void checkValue(){
+	public void checkAverage(){
 		assertEquals(result, Statistics.average(values),0.01);
 	}
 }
