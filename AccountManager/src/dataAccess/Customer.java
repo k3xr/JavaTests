@@ -39,7 +39,7 @@ public class Customer {
 	}
 		
 	// Checks that the order's amount has 2 decimal digits only
-	private boolean checkOrderAttributes(Order order) {
+	boolean checkOrderAttributes(Order order) {
 		if((order.getAmount()*100) > Math.floor(order.getAmount()*100))
 			return false;
 		else
