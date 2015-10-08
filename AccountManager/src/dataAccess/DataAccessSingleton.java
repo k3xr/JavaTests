@@ -38,7 +38,7 @@ public class DataAccessSingleton {
 	
 	// We will not use a real database. This method simulates that data are loaded
 	// into the container class DataAccess. As there is no database, there are no updates
-	private Vector <Customer> fakeDatabaseLoader() throws ParseException {
+	Vector <Customer> fakeDatabaseLoader() throws ParseException {
 		
 		Order one_1 = new Order(100.0, true, false);
 		Order one_2 = new Order(50.055, true, false);
