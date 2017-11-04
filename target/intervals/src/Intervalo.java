@@ -73,7 +73,6 @@ public class Intervalo implements Comparable<Intervalo> {
 		return resultado;
 	}
 
-	@Override
 	public int compareTo(Intervalo inter2) {
 		return (primero == inter2.getPrimero() 
 				&& segundo == inter2.getSegundo() ? 0 : 1);
