@@ -1,3 +1,5 @@
+package singleton;
+
 /**
  * Create an instance in the global access method
  *
